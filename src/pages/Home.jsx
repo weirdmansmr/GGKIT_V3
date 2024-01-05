@@ -5,11 +5,11 @@ import Benefits from "../components/Home/Benefits/Benefits";
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Header />
 			<Main />
 			<Benefits />
-		</div>
+		</>
 	);
 };
 

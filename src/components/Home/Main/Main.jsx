@@ -1,9 +1,9 @@
 import React from "react";
-import mainImg from "@/assets/Main.jpeg";
+import mainImg from "@/assets/Main2.png";
 
 const Main = () => {
 	return (
-		<main className="px-2 py-3 gap-2 flex text-[#512DA8] flex-col dark:bg-[#512DA8]">
+		<main className="px-2 py-3 gap-2 flex text-violet-700 flex-col dark:bg-violet-700 items-center">
 			<h1 className="gradient bg-clip-text text-transparent font-extrabold font-mono text-4xl text-center">
 				Центр дополнительного образования
 			</h1>
