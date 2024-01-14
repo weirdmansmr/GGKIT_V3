@@ -1,14 +1,11 @@
 import "./App.css";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Lessons from "./pages/Lessons";
+import { RouterProvider } from "react-router-dom";
+import { route } from "./routes/route";
 
 function App() {
 	return (
-		<div className="">
-			{/* <Login /> */}
-			{/* <Home /> */}
-			<Lessons />
+		<div className="dark">
+			<RouterProvider router={route} />
 		</div>
 	);
 }

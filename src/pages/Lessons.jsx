@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header/Header";
 import LessonList from "../components/Lessons/LessonList";
 
-const Subjects = () => {
+const Lessons = () => {
 	return (
 		<>
 			<Header />
@@ -11,4 +11,4 @@ const Subjects = () => {
 	);
 };
 
-export default Subjects;
+export default Lessons;

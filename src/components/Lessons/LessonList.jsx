@@ -23,21 +23,23 @@ const LessonList = () => {
 		},
 	];
 	return (
-		<div
-			className={`dark:bg-violet-700 flex flex-col pt-4 px-3 gap-2 min-h-screen`}
-		>
-			<h1 className=" self-start text-3xl text-violet-700 dark:text-yellow-400 font-bold my-2">
-				Список уроков
-			</h1>
-			{lessonArray.map((el) => (
-				<LessonItem
-					key={el.id}
-					id={el.id}
-					name={el.name}
-					desc={el.desc}
-					date={el.date}
-				/>
-			))}
+		<div className="dark:bg-primary min-h-screen">
+			<div className={`pt-4 px-3`}>
+				<h1 className="text-[40px] lg:pl-10 self-start text-primary dark:text-secondary font-bold my-2">
+					Список уроков
+				</h1>
+				<div className="pt-5 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-4">
+					{lessonArray.map((el) => (
+						<LessonItem
+							key={el.id}
+							id={el.id}
+							name={el.name}
+							desc={el.desc}
+							date={el.date}
+						/>
+					))}
+				</div>
+			</div>
 		</div>
 	);
 };

@@ -3,11 +3,11 @@ import mainImg from "@/assets/Main2.png";
 
 const Main = () => {
 	return (
-		<main className="px-2 py-3 gap-2 flex text-violet-700 flex-col dark:bg-violet-700 items-center">
-			<h1 className="gradient bg-clip-text text-transparent font-extrabold font-mono text-4xl text-center">
+		<main className="px-2 pb-3 pt-8 gap-2 flex dark:text-secondary flex-col dark:bg-primary items-center">
+			<h1 className="font-extrabold font-mono text-4xl text-center">
 				Центр дополнительного образования
 			</h1>
-			<h3 className="gradient bg-clip-text font-semibold text-transparent text-xl text-center">
+			<h3 className="font-semibold text-xl text-center dark:text-primaryLighter">
 				Помощь ученику в получении необходимых знаний в сфере IT и информатики
 			</h3>
 			<div className="">
